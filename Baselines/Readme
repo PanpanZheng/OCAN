@@ -1,0 +1,5 @@
+For OCNN and OCGP, they are implemented by package, NDtool, which can be downloaded in the website, http://www.robots.ox.ac.uk/~davidc/publications_NDtool.php. 
+1. Create a folder named "MATLAB", and then download the package, "NDtoolv0.12", into "MATLAB". 
+2. Move "run_baseline.m" into the folder "MATLAB", and then replace "splitData.m" in "MATLAB/NDtoolv0.12" with "splitData.m" in path "Baselines/"
+
+For OCSVM, it's implemented by sklearn.  
