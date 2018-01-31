@@ -187,14 +187,14 @@ T_solver = tf.train.GradientDescentOptimizer(learning_rate=1e-3).minimize(T_loss
 min_max_scaler = MinMaxScaler()
 
 if en_ae == 1:
-    x_benign = min_max_scaler.fit_transform(np.load("./hidden_repre/ben_hid_emd_4_50_8_200_r0.npy"))
-    x_vandal = min_max_scaler.transform(np.load("./hidden_repre/val_hid_emd_4_50_8_200_r0.npy"))
+    x_benign = min_max_scaler.fit_transform(np.load("./data/wiki/ben_hid_emd_4_50_8_200_r0.npy"))
+    x_vandal = min_max_scaler.transform(np.load("./data/wiki/val_hid_emd_4_50_8_200_r0.npy"))
 elif en_ae == 2:
-    x_benign = min_max_scaler.fit_transform(np.load("./hidden_repre/credit_card/ben_hid_repre_r2.npy"))
-    x_vandal = min_max_scaler.transform(np.load("./hidden_repre/credit_card/van_hid_repre_r2.npy"))
+    x_benign = min_max_scaler.fit_transform(np.load("./data/credit_card/ben_hid_repre_r2.npy"))
+    x_vandal = min_max_scaler.transform(np.load("./data/credit_card/van_hid_repre_r2.npy"))
 else:
-    x_benign = min_max_scaler.fit_transform(np.load("./raw_credit_card/ben_raw_r0.npy"))
-    x_vandal = min_max_scaler.transform(np.load("./raw_credit_card/van_raw_r0.npy"))
+    x_benign = min_max_scaler.fit_transform(np.load("./data/raw_credit_card/ben_raw_r0.npy"))
+    x_vandal = min_max_scaler.transform(np.load("./data/raw_credit_card/van_raw_r0.npy"))
 
 
 #x_benign = min_max_scaler.fit_transform(np.load("./hidden_output/ben_hid_emd_4_50_8_200.npy"))
