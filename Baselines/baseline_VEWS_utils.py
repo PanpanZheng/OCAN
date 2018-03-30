@@ -1,3 +1,9 @@
+'''
+    Author: Panpan Zheng
+    Date created:  1/15/2018
+    Python Version: 2.7
+'''
+
 import os
 import sys
 sys.path.append(os.getcwd() + "\\..\\OCC\\")
