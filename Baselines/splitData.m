@@ -1,3 +1,6 @@
+%   Author: Panpan Zheng
+%   Date created:  1/15/2018
+
 function [traindataNor, validdataNor, testdataNor, validdataAb, testdataAb] = splitData(alldata, isab, en_ae)
 %SPLITDATA Split data into three groups: training, validation, and test set.
 %   [traindataNor, validdataNor, testdataNor, validdataAb, testdataAb] = splitData(alldata, isab)
