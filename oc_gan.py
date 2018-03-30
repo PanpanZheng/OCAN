@@ -1,3 +1,9 @@
+'''
+    Author: Panpan Zheng
+    Date created:  2/15/2018
+    Python Version: 2.7
+'''
+
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
