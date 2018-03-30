@@ -1,3 +1,8 @@
+'''
+    Author: Panpan Zheng
+    Date created:  2/15/2018
+    Python Version: 2.7
+'''
 import numpy as np
 import tensorflow as tf
 from sklearn.neighbors.kde import KernelDensity
