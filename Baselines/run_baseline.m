@@ -1,3 +1,7 @@
+%   Author: Panpan Zheng
+%   Date created:  1/15/2018
+%   Python Version: 2.7
+
 function [precision_neg, recall_neg, f1_neg, accuracy] = run_baseline(file_url,NDtype,en_ae)
 
 % type_list = ['dist', 'nn', 'kmeans', 'parzen', 'gmm', 'svmTax', 'gpoc', 'kde', 'som', 'pca', 'kpca'];
