@@ -1,5 +1,11 @@
-import numpy as np
 
+'''
+    Author: Panpan Zheng
+    Date created: 4/20/2013
+    Date last modified: 4/25/2013
+    Python Version: 2.7
+'''
+import numpy as np
 from bg_utils import one_hot
 
 def load_data(x_benign, x_vandal, n_b_lab, n_v_lab, n_b_test, n_v_test, oh=True):
