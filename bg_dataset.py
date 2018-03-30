@@ -1,8 +1,6 @@
-
 '''
     Author: Panpan Zheng
-    Date created: 4/20/2013
-    Date last modified: 4/25/2013
+    Date created:  2/15/2018
     Python Version: 2.7
 '''
 import numpy as np
