@@ -11,6 +11,7 @@ The main packages you need to install
 1. python 2.7 
 2. tensorflow 1.3.0
 ```
+
 ## DateSet
 
 For experiments, we evaluate **OCAN** on two real-world datasets: twitter and wiki which have been attached in location.
@@ -19,9 +20,12 @@ For experiments, we evaluate **OCAN** on two real-world datasets: twitter and wi
 
 The command line for OCAN goes as follow
 
-* **SAFE** 
 ```
     python oc_gan.py $1 $2
+    
+    where $1 refers to different datasets with wiki 1, credit-card(encoding) 2 and credit-card(plain) 3; 
+          $2 denotes whether it displays some metrics involving with training process, such as probabilities from discriminator for  
+          benign and vandal users, fm_loss and f1.
 ```
 
 **where** *$1* refers to the corresponding distributions and it can be assigned as 'exp' (exponential), 'ray' (Rayleigh) and 'poi' (poisson); *$2* denotes the datasets, 'twitter' or 'wiki'.
