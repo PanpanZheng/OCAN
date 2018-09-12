@@ -24,7 +24,8 @@ The command line for OCAN goes as follow
     python oc_gan.py $1 $2
     
     where $1 refers to different datasets with wiki 1, credit-card(encoding) 2 and credit-card(plain) 3; 
-          $2 denotes whether some metrics, such as fm_loss and f1 performed on training dataset, are given or not in training process with non-display 0 and display 1.
+          $2 denotes whether some metrics, such as fm_loss and f1 performed on training dataset, 
+             are given or not in training process with non-display 0 and display 1.
 ```
 
 **where** *$1* refers to the corresponding distributions and it can be assigned as 'exp' (exponential), 'ray' (Rayleigh) and 'poi' (poisson); *$2* denotes the datasets, 'twitter' or 'wiki'.
