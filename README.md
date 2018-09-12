@@ -14,7 +14,7 @@ The main packages you need to install are listed as follow
 
 ## DateSet
 
-For experiments, we evaluate **OCAN** on two real-world datasets: wiki and credit-card which have been attached in folder data/.
+For experiments, we evaluate **OCAN** on two real-world datasets: wiki and credit-card which have been attached in folder [data/](https://github.com/PanpanZheng/OCAN/tree/master/data).
 
 ## Model Evaluation
 
