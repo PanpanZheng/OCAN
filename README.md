@@ -41,7 +41,14 @@ The above command line shows the performance of OCAN on wiki without displaying 
 ## Reference
 
 I am very glad that you could visit this github and check my research work. If it benefits for your work, please refer this work by
-.
+```
+@article{zheng2018one,
+  title={One-Class Adversarial Nets for Fraud Detection},
+  author={Zheng, Panpan and Yuan, Shuhan and Wu, Xintao and Li, Jun and Lu, Aidong},
+  journal={arXiv preprint arXiv:1803.01798},
+  year={2018}
+}
+```
 
 ## Acknowledgments
 
