@@ -22,9 +22,14 @@ The command line for OCAN goes as follow
 
 ```
     python oc_gan.py $1 $2
-    
 ```
 **where** $1 refers to different datasets with wiki 1, credit-card(encoding) 2 and credit-card(plain) 3; $2 denotes whether some metrics, such as fm_loss and f1 performed on training dataset, are provided or not in training process  with non-display 0 and display 1.
+
+
+```
+   e.g. python oc_gan.py 1 0 
+```
+The above command line shows the performance of OCAN on twitter without displaying the training process.
 
 ## Authors
 
