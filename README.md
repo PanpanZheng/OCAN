@@ -25,6 +25,7 @@ The command line for OCAN goes as follow
     
 ```
 **where** $1 refers to different datasets with wiki 1, credit-card(encoding) 2 and credit-card(plain) 3; 
+
           $2 denotes whether some metrics, such as fm_loss and f1 performed on training dataset, are provided or not in training process  with non-display 0 and display 1.
 
 ## Authors
