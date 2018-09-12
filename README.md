@@ -1,11 +1,11 @@
 
-# One-Class Adversarial Nets for Fraud Detection
+# OCAN: One-Class Adversarial Nets for Fraud Detection
 
-In this paper, we develop one-class adversarial nets (**OCAN**) for fraud detection with only benign users as training data. 
+In this paper, we develop one-class adversarial nets (OCAN) for fraud detection with only benign users as training data. 
 
 ## Running Environment
 
-The main packages you need to install
+The main packages you need to install are listed as follow
 
 ```
 1. python 2.7 
@@ -14,7 +14,7 @@ The main packages you need to install
 
 ## DateSet
 
-For experiments, we evaluate **OCAN** on two real-world datasets: wiki and credit-card which have been attached in location.
+For experiments, we evaluate **OCAN** on two real-world datasets: wiki and credit-card which have been attached in folder data/.
 
 ## Model Evaluation
 
@@ -45,6 +45,6 @@ I am very glad that you could visit this github and check my research work. If i
 
 ## Acknowledgments
 
-This work was going on underlying the guide of prof. Xintao Wu(my advisor) and Dr. Shuhan Yuan(postdoc in our lab). 
+This work was going on underlying the guide of prof. [Xintao Wu](http://csce.uark.edu/~xintaowu/) and Dr. Shuhan Yuan(postdoc in our lab). 
 
 Appreciate it greatly for every labmate in **SAIL lab** in Uni. of Arkansas.
