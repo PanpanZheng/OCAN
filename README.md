@@ -14,7 +14,7 @@ The main packages you need to install
 
 ## DateSet
 
-For experiments, we evaluate **OCAN** on two real-world datasets: twitter and wiki which have been attached in location.
+For experiments, we evaluate **OCAN** on two real-world datasets: wiki and credit-card which have been attached in location.
 
 ## Model Evaluation
 
@@ -29,7 +29,7 @@ The command line for OCAN goes as follow
 ```
    e.g. python oc_gan.py 1 0 
 ```
-The above command line shows the performance of OCAN on twitter without displaying the training process.
+The above command line shows the performance of OCAN on wiki without displaying metrics in the training process.
 
 ## Authors
 
