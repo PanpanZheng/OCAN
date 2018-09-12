@@ -40,7 +40,7 @@ The above command line shows the performance of OCAN on wiki without displaying 
 
 ## Reference
 
-I am very glad that you could visit this github and check my research work. If it benefits for your work, please refer this work by
+I am very glad that you could visit this github and check my research work. If it benefits your work, please refer this work by
 ```
 @article{zheng2018one,
   title={One-Class Adversarial Nets for Fraud Detection},
