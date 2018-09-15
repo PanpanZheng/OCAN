@@ -38,7 +38,7 @@ The above command line shows the performance of OCAN on wiki without displaying 
     - [personal website](https://sites.uark.edu/pzheng/)
     - [google scholar](https://scholar.google.com/citations?user=f2OLKMYAAAAJ&hl=en)
 
-## Reference
+## Citation
 
 I am very glad that you could visit this github and check my research work. If it benefits your work, please refer this work by
 ```
