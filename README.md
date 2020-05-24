@@ -33,7 +33,7 @@ The above command line shows the performance of OCAN on wiki without displaying 
 
 ## Authors
 
-* **Panpan Zheng** 
+* **Panpan Zheng, Shuhan Yuan and Xintao Wu** 
 
     - [personal website](https://sites.uark.edu/pzheng/)
     - [google scholar](https://scholar.google.com/citations?user=f2OLKMYAAAAJ&hl=en)
